@@ -2,7 +2,7 @@
 
 End-to-end data pipeline that ingests 12 Transfermarkt football datasets (1.9M+ records) into Azure Data Lake, transforms them through a medallion architecture in Databricks Unity Catalog, and serves analyst-ready KPIs to Power BI.
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![Architecture Diagram](architecture/footballiq_complete_architecture.png)
 
 ## Overview
 
