@@ -46,8 +46,8 @@ Source: [Football Data from Transfermarkt](https://www.kaggle.com/datasets/david
 
 **Three-task orchestration with explicit dependencies.** A single Databricks Workflow runs Bronze → Silver → Gold as dependent tasks, with email alerts on failure — mirroring how a real pipeline would be scheduled and monitored.
 
-(screenshots/workflow-run-success.jpeg)
-(screenshots/notebooks.jpeg)
+![Workflows](https://github.com/saizdevlab/de-project-footballiq-azure-resource-group/blob/Dev/screenshots/workflow-run-success.jpeg )
+![Notebooks](https://github.com/saizdevlab/de-project-footballiq-azure-resource-group/blob/Dev/screenshots/notebooks.jpeg)
 
 ## Pipeline Layers
 
@@ -59,7 +59,7 @@ Source: [Football Data from Transfermarkt](https://www.kaggle.com/datasets/david
 
 ## Dashboard
 
-![Power BI stats](screenshots/powerbi.jpeg)
+![Power BI stats](https://github.com/saizdevlab/de-project-footballiq-azure-resource-group/blob/Dev/screenshots/powerbi.jpeg)
 
 
 Three report pages connected via DirectQuery to the Gold layer:
