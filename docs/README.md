@@ -46,6 +46,9 @@ Source: [Football Data from Transfermarkt](https://www.kaggle.com/datasets/david
 
 **Three-task orchestration with explicit dependencies.** A single Databricks Workflow runs Bronze → Silver → Gold as dependent tasks, with email alerts on failure — mirroring how a real pipeline would be scheduled and monitored.
 
+(screenshots/workflow-run-success.jpeg)
+(screenshots/notebooks.jpeg)
+
 ## Pipeline Layers
 
 **Bronze** — raw ingestion, append-only, all columns kept as strings to protect against upstream schema drift. Adds `_load_ts`, `_source_file`, `_batch_id` for lineage.
@@ -56,8 +59,8 @@ Source: [Football Data from Transfermarkt](https://www.kaggle.com/datasets/david
 
 ## Dashboard
 
-![Power BI League Table](screenshots/powerbi-league-table.png)
-![Power BI Player Stats](screenshots/powerbi-player-stats.png)
+![Power BI stats](screenshots/powerbi.jpeg)
+
 
 Three report pages connected via DirectQuery to the Gold layer:
 - **League Table** — standings by competition and season
