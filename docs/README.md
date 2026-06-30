@@ -88,7 +88,7 @@ Implementing SCD Type 2 correctly required thinking through the `MERGE` logic ca
 
 ## Setup
 
-Full step-by-step instructions — from creating the Azure Resource Group through connecting Power BI — are in [`docs/setup-manual.pdf`]([docs/setup-manual.md](docs/FootballIQ_Azure_Setup_Manual.pdf)).
+Full step-by-step instructions — from creating the Azure Resource Group through connecting Power BI — are in [`docs/setup-manual.pdf`](docs/FootballIQ_Azure_Setup_Manual.pdf).
 
 ## Future Improvements
 
@@ -99,4 +99,4 @@ Full step-by-step instructions — from creating the Azure Resource Group throug
 
 ---
 
-Built as a portfolio project to demonstrate production-style data engineering patterns on Azure. Feedback welcome — open an issue or reach out on [LinkedIn](#).
+Built as a portfolio project to demonstrate production-style data engineering patterns on Azure. Feedback welcome — open an issue or reach out on [LinkedIn](https://www.linkedin.com/in/sai-sde).
