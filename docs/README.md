@@ -20,25 +20,7 @@ This project simulates a production-grade analytics pipeline for a football data
 | Serving | Databricks SQL Warehouse, Power BI |
 | Governance | Unity Catalog (3-schema medallion: bronze / silver / gold) |
 
-## Architecture
 
-```
-Kaggle (Transfermarkt, 12 CSVs)
-        │
-        ▼
-ADLS Gen2 — raw landing zone (External Location)
-        │
-        ▼
-┌─────────────────────────────────────┐
-│         Databricks Unity Catalog      │
-│                                       │
-│  bronze  →  silver  →  gold          │
-│  (raw)     (validated)  (KPIs)       │
-└─────────────────────────────────────┘
-        │
-        ▼
-Power BI (DirectQuery via SQL Warehouse)
-```
 
 ## Dataset
 
